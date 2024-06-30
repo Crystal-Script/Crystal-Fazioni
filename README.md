@@ -1,14 +1,15 @@
 # Crystal-Fazioni
-Crystal Fazioni
 
-SISTEMA FAZIONI
+SISTEMA FAZIONI FREE
 
-GRIDSYSTEM = https://github.com/Crystal-Script/Gridsystem --- MIRACCOMANDO IL NOME DEL GRIDSYSTEM DEVE ESSERE "gridsystem"
+# Dipendenze
 
-DIPENDENZE:
+CRYSTAL LIB: https://github.com/Crystal-Script/Crystal-Lib/ -- IMPORTANTE -- se volete cambiare marker, aprite ticket vi do una mano io: https://discord.gg/bpNhdex2Fm
 
 ES EXTENDED
 
 ESX MENU DEFAULT
 
-PER QUALSIASI FIX ENTRATE NEL DISCORD: https://discord.gg/bpNhdex2Fm
+# Supporto
+
+Per qualsiasi bug o aiuto aprite ticket nel discord che aiuterò! https://discord.gg/bpNhdex2Fm
