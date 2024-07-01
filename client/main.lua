@@ -19,6 +19,17 @@ AddEventHandler('esx:setJob', function(job)
 end)
 
 for k,v in pairs(Config.fazioni) do
+
+    local blip = AddBlipForCoord(v.blipcord[1], v.blipcord[2], v.blipcord[3])
+    SetBlipSprite(blip, v.blip)
+    SetBlipDisplay(blip, 4)
+    SetBlipScale(blip, v.blipScale)
+    SetBlipColour(blip, v.blipColor)
+    SetBlipAsShortRange(blip, true)
+    BeginTextCommandSetBlipName("STRING")
+    AddTextComponentString(v.blipText)
+    EndTextCommandSetBlipName(blip)
+    
     if v.deposito1 then
         exports['crystal_lib']:CRYSTAL().gridsystem({ 
             pos = vector3(v.deposito1[1], v.deposito1[2], v.deposito1[3]),
